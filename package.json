@@ -1,0 +1,30 @@
+{
+  "name": "parry-mongoose",
+  "description": "mongoose binding for parry",
+  "version": "1.0.0",
+  "author": "kjirou",
+  "bugs": {
+    "url": "https://github.com/kjirou/parry-mongoose/issues"
+  },
+  "devDependencies": {
+    "espower-loader": "0.10.0",
+    "fixpack": "2.0.1",
+    "mongoose": "3.8.24",
+    "power-assert": "0.10.2"
+  },
+  "homepage": "https://github.com/kjirou/parry-mongoose",
+  "keywords": [
+    "mongoose",
+    "validate",
+    "validation"
+  ],
+  "license": "https://github.com/kjirou/parry-mongoose/blob/master/LICENSE",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjirou/parry-mongoose.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
