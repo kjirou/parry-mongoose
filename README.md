@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/parry-mongoose.svg)](http://badge.fury.io/js/parry-mongoose)
 [![Build Status](https://travis-ci.org/kjirou/parry-mongoose.svg?branch=master)](https://travis-ci.org/kjirou/parry-mongoose)
 
-mongoose binding for [parry](https://github.com/kjirou/parry).
+[mongoose](https://github.com/learnboost/mongoose) binding for [parry](https://github.com/kjirou/parry).
 
 
 ## Installation
@@ -58,6 +58,5 @@ user.validate(function(err) {
   - In the previous example, `isLength` has been evaluated first
 - Can not validate a field if value is empty and `schemaType.required` is `false`
   - It is also a specification of mongoose
-
-
-## Caution
+- Ref
+  - [mongoose schemaType.validate](http://mongoosejs.com/docs/api.html#schematype_SchemaType-validate)
