@@ -7,9 +7,12 @@
     "url": "https://github.com/kjirou/parry-mongoose/issues"
   },
   "devDependencies": {
+    "async": "0.9.0",
     "espower-loader": "0.10.0",
     "fixpack": "2.0.1",
+    "mocha": "2.1.0",
     "mongoose": "3.8.24",
+    "parry": "2.1.0",
     "power-assert": "0.10.2"
   },
   "homepage": "https://github.com/kjirou/parry-mongoose",
